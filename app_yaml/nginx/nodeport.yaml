@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: Service
-metadata:
+metadata:https://github.com/makobaya/RedHat-usage/blob/main/nodeport.yaml
   name: nginx-service
   labels:
     app: nginx
