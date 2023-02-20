@@ -16,8 +16,8 @@ spec:
       containers:
       - name: nginx
         #image: image-registry.openshift-image-registry.svc:5001/app-test/nginx
-        #image: registry.redhat.io/rhel9/nginx-120
-        image: docker.io/nginx
+        image: registry.redhat.io/rhel9/nginx-120
+        #image: docker.io/nginx
         ports:
         - containerPort: 80
         readinessProbe:
